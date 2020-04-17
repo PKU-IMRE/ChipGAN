@@ -32,4 +32,4 @@ series = {MM ’18}
 ```
 
 ## Contactor
-If you have any question, please feel free to contact me with ce_hebin@pku.edu.cn
+If you have any question, please feel free to contact me with cs_hebin@pku.edu.cn
