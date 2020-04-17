@@ -1,0 +1,37 @@
+------------ Options -------------
+aspect_ratio: 1.0
+batchSize: 1
+checkpoints_dir: ./checkpoints
+dataroot: ./inkwash_dataset
+dataset_mode: unaligned
+display_id: 1
+display_port: 8097
+display_winsize: 256
+fineSize: 256
+gpu_ids: [0]
+how_many: 5
+init_type: normal
+input_nc: 3
+isTrain: False
+loadSize: 256
+max_dataset_size: inf
+model: cycle_gan
+nThreads: 2
+n_layers_D: 3
+name: horse2_cyclegan_edge_10_dec_150
+ndf: 64
+ngf: 64
+no_dropout: True
+no_flip: False
+norm: instance
+ntest: inf
+output_nc: 3
+phase: test
+resize_or_crop: resize_and_crop
+results_dir: ./results/
+serial_batches: False
+which_direction: AtoB
+which_epoch: latest
+which_model_netD: basic
+which_model_netG: resnet_9blocks
+-------------- End ----------------
